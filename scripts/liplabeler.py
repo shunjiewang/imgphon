@@ -6,7 +6,9 @@ import contextlib
 import numpy as np
 import easygui
 
-from handlabel import *
+sys.path.append('../')
+
+from imgphon.handlabel import *
 
 if __name__ == "__main__":
 
